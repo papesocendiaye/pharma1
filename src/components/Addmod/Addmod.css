@@ -1,0 +1,36 @@
+.btn-modal,.model-close{
+    padding: 10px;
+    width: 10%;
+    height: 40px;
+    border-radius: 50px;
+    border-color: white;
+    color: white;
+    background-color: #538876;
+   
+}
+.btn-modal :hover, .model-close :hover{
+    color:#538876 ;
+    background-color: white;
+    transition: 0.4s;
+}
+.modal{
+    width: 45%;
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    justify-self: center;
+    background-color:whitesmoke ;
+    margin-top:5% ;
+    
+}
+.modal-content{
+    margin-top: 1%;
+}
+
+.modal-close{
+    position: absolute;
+    bottom: 10%;
+}
+.btn-modal{
+    position: fixed;
+}
